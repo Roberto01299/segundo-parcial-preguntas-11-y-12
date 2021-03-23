@@ -14,8 +14,8 @@ namespace pregunta 11
             //Lista de Productos
             List<Productos> productos = new List<Productos>();
             int[] ID = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            string[] Nombres = { "oreo","galletas dino","manzana","Empanada","coca-cola","Chocolate","agua","paquete de mentas","Pan", "galletas integlal"};
-            int[] Precios = { 10, 15, 20, 25, 30, 35, 40, 45, 50, 55 };
+            string[] Nombres = { "oreo","galletas dino","manzana","pan de gineo","coca-cola","Chocolate","agua","paquete de mentas","fanta", "galletas integlal"};
+            int[] Precios = { 20, 15, 20, 25, 30, 20, 15, 20, 25, 15 };
             int[] Existencia = { 1, 2, 3, 4, 4, 2, 3, 7, 2, 2 };
 
             //Llenando lista de productos
@@ -93,7 +93,7 @@ namespace pregunta 11
                 }
             }
            
-            catch (Exception e) 
+            catch (Exception e)
             {
                 Console.WriteLine("valor invalido");
             }
